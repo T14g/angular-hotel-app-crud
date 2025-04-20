@@ -12,7 +12,7 @@ export class ReservationFormComponent implements OnInit {
 
   constructor(private formBuilder: FormBuilder) { }
 
-  ngOnInit(): void {
+   ngOnInit(): void {
     this.reservationForm = this.formBuilder.group({
       checkInDate : ['', Validators.required],
       checkOutDate : ['', Validators.required],
